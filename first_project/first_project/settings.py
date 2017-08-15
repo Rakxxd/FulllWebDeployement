@@ -26,7 +26,7 @@ SECRET_KEY = 'p40^!qs0+0r&6^^9)0o_qpsa$&y4+i+*i^g4(8zg=3d7t(ggdn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['rakxxd.pythonanywhere.com',]
 
 
 # Application definition
