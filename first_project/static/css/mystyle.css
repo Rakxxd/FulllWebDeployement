@@ -1,0 +1,20 @@
+.get-me{
+  font-family: 'Amatic SC', cursive;
+  margin:auto;
+  text-align: center;
+  margin-bottom: 15px;
+
+
+}
+
+table, th, td{
+  border: 1px solid black;
+  color:blue;
+  font-family: 'Amatic SC', cursive;
+  margin: auto;
+
+}
+
+th, td{
+  padding:10px;
+}

@@ -1,0 +1,144 @@
+
+
+.landing{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('http://cdn.wallpapersafari.com/94/63/ctNifp.jpg');
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.navbar{
+    margin-top:6%;
+}
+
+.nav li a {
+    padding: 10px;
+    color: white;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    
+}
+
+.nav>li>a:hover{
+
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+
+.navbar-toggle{
+    color:white !important;
+}
+
+.banner-one{
+    height:auto;
+    color:white;
+}
+
+.banner-one h2{
+    margin-top: 20px;
+    color: black;
+    margin-bottom: 15px;
+    font-family: 'Righteous', cursive;
+    padding-bottom: 5px;
+
+}
+h2:after{
+    width:30%;
+    height:2px;
+    background-color: grey;
+    display: block;
+    content: " ";
+    margin-left: 35%;
+    margin-top:12px;
+    
+}
+
+.banner-one p{
+    
+    color: black;
+    width: 80%;
+    margin-left: 10%;
+     font-family: 'Great Vibes', cursive;
+    
+
+}
+.navbar-brand{
+    
+    float:left;
+    
+}
+.navbar-brand img{
+    width:60px;
+    margin-left: 35px;
+    margin-top: 0;
+}
+
+
+
+.nvab-hover span:hover{
+
+  background: white;
+  color: black !important;
+  -webkit-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+  -moz-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+  -ms-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+  transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+}
+.nvab-hover span {
+   
+  display: block;
+  position: relative;
+  padding: 0 3px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.nvab-hover span:after {
+  content: attr(data-title);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 3px;
+  color: black;
+  background: white;
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+  -moz-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+  -ms-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+  transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+}
+
+
+#brand-text{
+    font-family: 'Righteous', cursive;
+
+    font-size: 3em;
+    color: white;
+}
+
+#brand-text:hover{
+    font-size: 3em;
+    color: rgba(255,255,255,0.3);
+}
+
+#brand-textsmall{
+   font-family: 'Great Vibes', cursive;
+
+    font-size: 1em;
+    color: white;
+}
